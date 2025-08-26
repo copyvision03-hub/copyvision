@@ -1,0 +1,161 @@
+
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CopyVision – Transforme palavras em vendas</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root{
+      --bg:#0b1a2a; --bgSoft:#08121e;
+    }
+    body{ background:var(--bg); color:#e5e7eb; }
+    .card{ background:rgba(255,255,255,.05); border:1px solid rgba(255,255,255,.1); border-radius:16px; }
+    .btn{ border-radius:16px; font-weight:600; padding:.8rem 1.2rem; display:inline-flex; gap:.5rem; align-items:center; }
+    .btn-primary{ background:#fff; color:#0b1a2a; }
+    .btn-outline{ border:1px solid rgba(255,255,255,.2); color:#fff; }
+  </style>
+</head>
+<body>
+  <header class="sticky top-0 z-40 border-b border-white/10" style="background:#0b1a2ab3;backdrop-filter:blur(8px)">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <svg width="40" height="40" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="2" y="24" width="14" height="4" rx="2" fill="#fff"/><rect x="4" y="32" width="12" height="4" rx="2" fill="#fff"/>
+          <path d="M54 32c0 12.15-9.85 22-22 22S10 44.15 10 32 19.85 10 32 10c5.4 0 10.35 1.9 14.2 5.07" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+          <polygon points="34,24 46,32 34,40" fill="#fff"/>
+        </svg>
+        <span class="text-2xl font-semibold tracking-tight text-white">COPYVISION</span>
+      </div>
+      <nav class="hidden md:flex items-center gap-8 text-sm">
+        <a href="#servicos" class="text-slate-300 hover:text-white">Serviços</a>
+        <a href="#portfolio" class="text-slate-300 hover:text-white">Portfólio</a>
+        <a href="#planos" class="text-slate-300 hover:text-white">Planos</a>
+        <a href="#processo" class="text-slate-300 hover:text-white">Processo</a>
+        <a href="#contato" class="text-slate-300 hover:text-white">Contato</a>
+      </nav>
+      <a href="mailto:copyvision03@gmail.com?subject=Quero%20transformar%20palavras%20em%20vendas" class="btn btn-primary">Fale Conosco</a>
+    </div>
+  </header>
+
+  <section class="relative overflow-hidden">
+    <div class="absolute inset-0 opacity-20" style="background:
+      radial-gradient(80% 80% at 70% 10%,#3b82f6 0%,transparent 60%),
+      radial-gradient(70% 60% at 20% 80%,#06b6d4 0%,transparent 60%);"></div>
+    <div class="relative max-w-7xl mx-auto px-4 py-24 md:py-32">
+      <p class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs tracking-widest uppercase text-slate-300">Copywriting Estratégico</p>
+      <h1 class="mt-4 text-4xl md:text-6xl font-extrabold leading-tight text-white">Transforme <span class="text-white/90">palavras</span> em <span class="text-white/90">vendas</span></h1>
+      <p class="mt-5 max-w-2xl text-lg text-slate-300">Páginas, anúncios e e-mails que conectam, despertam desejo e fazem seus clientes dizerem <strong>SIM</strong>.</p>
+      <div class="mt-8 flex flex-col sm:flex-row gap-3">
+        <a href="https://wa.me/244941600472" class="btn btn-primary">Falar no WhatsApp</a>
+        <a href="#contato" class="btn btn-outline">Solicitar Proposta</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicos" class="max-w-7xl mx-auto px-4 py-20">
+    <div class="text-center max-w-3xl mx-auto">
+      <p class="text-sm uppercase tracking-[.2em] text-slate-300">Serviços</p>
+      <h2 class="mt-2 text-3xl md:text-5xl font-bold text-white/95 leading-tight">O que fazemos para aumentar suas vendas</h2>
+      <p class="mt-4 text-lg text-slate-300">Mensagens claras, ofertas irresistíveis e funis que realmente convertem.</p>
+    </div>
+    <div class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+      <div class="card p-6"><h3 class="text-xl font-semibold text-white mb-2">Páginas de Vendas</h3><p class="text-slate-300">Estruturas e headlines de alta conversão.</p></div>
+      <div class="card p-6"><h3 class="text-xl font-semibold text-white mb-2">E-mails Persuasivos</h3><p class="text-slate-300">Sequências que nutrem e vendem.</p></div>
+      <div class="card p-6"><h3 class="text-xl font-semibold text-white mb-2">Anúncios de Impacto</h3><p class="text-slate-300">Copy que para o scroll e acelera o ROI.</p></div>
+      <div class="card p-6"><h3 class="text-xl font-semibold text-white mb-2">Lançamentos & Locais</h3><p class="text-slate-300">Estratégias para vender mais.</p></div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="border-y border-white/10" style="background:rgba(255,255,255,.05)">
+    <div class="max-w-7xl mx-auto px-4 py-20">
+      <div class="text-center max-w-3xl mx-auto">
+        <p class="text-sm uppercase tracking-[.2em] text-slate-300">Portfólio</p>
+        <h2 class="mt-2 text-3xl md:text-5xl font-bold text-white/95 leading-tight">Resultados que falam por si</h2>
+        <p class="mt-4 text-lg text-slate-300">Alguns cases recentes.</p>
+      </div>
+      <div class="mt-10 grid gap-6 md:grid-cols-3">
+        <div class="card p-6"><h3 class="text-lg font-semibold text-white">E-commerce de Moda</h3><p class="mt-2 text-2xl font-bold text-white">+62% em receita</p><p class="mt-2 text-slate-300">Reescrita de PDP e carrinho abandonado.</p></div>
+        <div class="card p-6"><h3 class="text-lg font-semibold text-white">Clínica Odontológica</h3><p class="mt-2 text-2xl font-bold text-white">3x mais leads</p><p class="mt-2 text-slate-300">Campanha local com anúncios e landing.</p></div>
+        <div class="card p-6"><h3 class="text-lg font-semibold text-white">Infoproduto Fitness</h3><p class="mt-2 text-2xl font-bold text-white">+41% conversão</p><p class="mt-2 text-slate-300">Lançamento com nova big idea.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="planos" class="max-w-7xl mx-auto px-4 py-20">
+    <div class="text-center max-w-3xl mx-auto">
+      <p class="text-sm uppercase tracking-[.2em] text-slate-300">Planos</p>
+      <h2 class="mt-2 text-3xl md:text-5xl font-bold text-white/95 leading-tight">Escolha o pacote ideal</h2>
+      <p class="mt-4 text-lg text-slate-300">Transparência e foco em resultado.</p>
+    </div>
+    <div class="mt-10 grid gap-6 md:grid-cols-3">
+      <div class="card p-6"><h3 class="text-xl font-semibold text-white">Essencial</h3><p class="mt-3 text-3xl font-extrabold text-white">Kz 95.000</p><ul class="mt-4 text-slate-300 list-disc pl-5"><li>1 Landing Page</li><li>Sequência de 3 e-mails</li><li>Headline + Oferta</li></ul><a href="#contato" class="btn btn-primary mt-6">Quero o Essencial</a></div>
+      <div class="p-6 rounded-2xl shadow-xl" style="background:#fff;color:#0b1a2a;border:1px solid rgba(255,255,255,.1)"><h3 class="text-xl font-semibold">Crescimento</h3><p class="mt-3 text-3xl font-extrabold">Kz 195.000</p><ul class="mt-4 list-disc pl-5"><li>Landing + Obrigado</li><li>Sequência de 6 e-mails</li><li>Anúncios (3 variações)</li><li>Consultoria 1h</li></ul><a href="#contato" class="btn mt-6" style="background:#0b1a2a;color:#fff">Fechar com a CopyVision</a></div>
+      <div class="card p-6"><h3 class="text-xl font-semibold text-white">Escala</h3><p class="mt-3 text-3xl font-extrabold text-white">Kz 395.000</p><ul class="mt-4 text-slate-300 list-disc pl-5"><li>Funil completo</li><li>6 anúncios</li><li>10 e-mails</li><li>Acompanhamento 30 dias</li></ul><a href="#contato" class="btn btn-primary mt-6">Vamos escalar</a></div>
+    </div>
+  </section>
+
+  <section id="processo" class="border-y border-white/10" style="background:rgba(255,255,255,.05)">
+    <div class="max-w-7xl mx-auto px-4 py-20">
+      <div class="text-center max-w-3xl mx-auto">
+        <h2 class="text-3xl md:text-5xl font-bold text-white/95">Nosso processo simples e eficaz</h2>
+        <p class="mt-4 text-lg text-slate-300">Do diagnóstico ao resultado.</p>
+      </div>
+      <div class="mt-10 grid gap-6 md:grid-cols-3">
+        <div class="card p-6"><div class="flex items-center gap-3"><div class="h-9 w-9 rounded-full bg-white/10 flex items-center justify-center font-bold">1</div><h3 class="text-lg font-semibold text-white">Diagnóstico</h3></div><ul class="mt-4 text-slate-300 list-disc pl-5"><li>Entrevista e análise</li><li>Proposta de valor</li><li>Escopo claro</li></ul></div>
+        <div class="card p-6"><div class="flex items-center gap-3"><div class="h-9 w-9 rounded-full bg-white/10 flex items-center justify-center font-bold">2</div><h3 class="text-lg font-semibold text-white">Estratégia</h3></div><ul class="mt-4 text-slate-300 list-disc pl-5"><li>Ofertas e páginas</li><li>Tom e narrativa</li><li>Calendário</li></ul></div>
+        <div class="card p-6"><div class="flex items-center gap-3"><div class="h-9 w-9 rounded-full bg-white/10 flex items-center justify-center font-bold">3</div><h3 class="text-lg font-semibold text-white">Entrega & Otimização</h3></div><ul class="mt-4 text-slate-300 list-disc pl-5"><li>Copy pronta</li><li>Teste A/B</li><li>Melhorias</li></ul></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="max-w-7xl mx-auto px-4 py-20">
+    <div class="text-center max-w-3xl mx-auto">
+      <h2 class="text-3xl md:text-5xl font-bold text-white/95">Pronto para vender mais?</h2>
+      <p class="mt-4 text-lg text-slate-300">Fale com a CopyVision e vamos criar copy que converte.</p>
+    </div>
+    <div class="mt-10 grid gap-8 md:grid-cols-2">
+      <form class="card p-6" action="mailto:copyvision03@gmail.com" method="post" enctype="text/plain">
+        <input class="w-full rounded-xl p-3 mb-3" style="background:#0b1a2a;border:1px solid rgba(255,255,255,.1)" placeholder="Seu nome" name="nome" required>
+        <input class="w-full rounded-xl p-3 mb-3" style="background:#0b1a2a;border:1px solid rgba(255,255,255,.1)" placeholder="E-mail" type="email" name="email" required>
+        <textarea class="w-full rounded-xl p-3 h-36" style="background:#0b1a2a;border:1px solid rgba(255,255,255,.1)" placeholder="Conte sobre seu projeto" name="mensagem"></textarea>
+        <button type="submit" class="btn btn-primary mt-4">Enviar mensagem</button>
+      </form>
+      <div class="card p-6">
+        <h3 class="text-xl font-semibold text-white">Contato</h3>
+        <p class="mt-2 text-slate-300">Preferir conversar agora? Estamos prontos para ouvir.</p>
+        <div class="mt-6 space-y-3">
+          <a href="tel:+244941600472" class="hover:underline">📞 941 600 472</a><br>
+          <a href="mailto:copyvision03@gmail.com" class="hover:underline">✉️ copyvision03@gmail.com</a>
+        </div>
+        <div class="mt-8 card p-4" style="background:#0b1a2a">
+          <p class="text-sm text-slate-300">"A CopyVision reformulou nossa comunicação e as vendas subiram imediatamente." — <span class="text-white">Cliente satisfeito</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="border-t border-white/10" style="background:var(--bgSoft)">
+    <div class="max-w-7xl mx-auto px-4 py-10 flex flex-col md:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-3">
+        <svg width="32" height="32" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="2" y="24" width="14" height="4" rx="2" fill="#fff"/>
+          <rect x="4" y="32" width="12" height="4" rx="2" fill="#fff"/>
+          <path d="M54 32c0 12.15-9.85 22-22 22S10 44.15 10 32 19.85 10 32 10c5.4 0 10.35 1.9 14.2 5.07" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+          <polygon points="34,24 46,32 34,40" fill="#fff"/>
+        </svg>
+        <span class="font-semibold">COPYVISION</span>
+      </div>
+      <p class="text-slate-400 text-sm">© 2025 CopyVision. Todos os direitos reservados.</p>
+      <div class="flex items-center gap-4 text-sm text-slate-300">
+        <a href="#servicos" class="hover:text-white">Serviços</a>
+        <a href="#portfolio" class="hover:text-white">Portfólio</a>
+        <a href="#planos" class="hover:text-white">Planos</a>
+        <a href="#processo" class="hover:text-white">Processo</a>
+        <a href="#contato" class="hover:text-white">Contato</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
