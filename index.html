@@ -7,96 +7,95 @@
   <title>CopyVision – Transforme palavras em vendas</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    :root{
-      --bg:#0b1a2a; --bgSoft:#08121e;
+    body {
+      background: #0b1a2a;
+      color: #e5e7eb;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
     }
-    body{ background:var(--bg); color:#e5e7eb; }
-    .card{ background:rgba(255,255,255,.05); border:1px solid rgba(255,255,255,.1); border-radius:16px; }
-    .btn{ border-radius:16px; font-weight:600; padding:.8rem 1.2rem; display:inline-flex; gap:.5rem; align-items:center; }
-    .btn-primary{ background:#fff; color:#0b1a2a; }
-    .btn-outline{ border:1px solid rgba(255,255,255,.2); color:#fff; }
+    .section {
+      padding: 80px 20px;
+      text-align: center;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #fff;
+    }
+    p {
+      max-width: 700px;
+      margin: 0 auto 30px auto;
+      font-size: 1.1rem;
+      color: #d1d5db;
+    }
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      background: #0b1a2a;
+      border: 2px solid #fff;
+      border-radius: 8px;
+      color: #fff;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #fff;
+      color: #0b1a2a;
+    }
+    footer {
+      background: #08121e;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #9ca3af;
+    }
   </style>
 </head>
 <body>
-  <header class="sticky top-0 z-40 border-b border-white/10" style="background:#0b1a2ab3;backdrop-filter:blur(8px)">
-    <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
-      <div class="flex items-center gap-3">
-        <span class="text-2xl font-semibold tracking-tight text-white">COPYVISION</span>
-      </div>
-      <nav class="hidden md:flex items-center gap-8 text-sm">
-        <a href="#servicos" class="text-slate-300 hover:text-white">Serviços</a>
-        <a href="#portfolio" class="text-slate-300 hover:text-white">Portfólio</a>
-        <a href="#planos" class="text-slate-300 hover:text-white">Planos</a>
-        <a href="#processo" class="text-slate-300 hover:text-white">Processo</a>
-        <a href="#contato" class="text-slate-300 hover:text-white">Contato</a>
-      </nav>
-      <a href="mailto:copyvision03@gmail.com" class="btn btn-primary">Fale Conosco</a>
-    </div>
-  </header>
 
-  <section class="relative overflow-hidden">
-    <div class="relative max-w-7xl mx-auto px-4 py-24 md:py-32 text-center">
-      <h1 class="text-5xl md:text-6xl font-extrabold leading-tight text-white">Transforme <span class="text-white/90">palavras</span> em <span class="text-white/90">vendas</span></h1>
-      <p class="mt-5 max-w-2xl mx-auto text-lg text-slate-300">Páginas, anúncios e e-mails que conectam, despertam desejo e fazem seus clientes dizerem SIM.</p>
-      <div class="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
-        <a href="https://wa.me/244941600472" class="btn btn-primary">Falar no WhatsApp</a>
-        <a href="#contato" class="btn btn-outline">Solicitar Proposta</a>
-      </div>
-    </div>
+  <!-- Hero -->
+  <section class="section">
+    <h1 style="font-size:2.5rem; color:white;">CopyVision – Transforme palavras em vendas</h1>
+    <p>Copywriting estratégico para negócios que querem vender mais 🚀</p>
+    <a href="#contato" class="btn">Fale Conosco</a>
   </section>
 
-  <section id="servicos" class="max-w-7xl mx-auto px-4 py-20">
-    <div class="text-center">
-      <h2 class="text-4xl font-bold text-white/95">O que fazemos</h2>
-      <p class="mt-4 text-lg text-slate-300">Serviços para aumentar suas vendas</p>
-    </div>
-    <div class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
-      <div class="card p-6"><h3 class="text-xl font-semibold text-white mb-2">Páginas de Vendas</h3><p class="text-slate-300">Estruturas e headlines de alta conversão.</p></div>
-      <div class="card p-6"><h3 class="text-xl font-semibold text-white mb-2">E-mails Persuasivos</h3><p class="text-slate-300">Sequências que nutrem e vendem.</p></div>
-      <div class="card p-6"><h3 class="text-xl font-semibold text-white mb-2">Anúncios de Impacto</h3><p class="text-slate-300">Copy que para o scroll e acelera o ROI.</p></div>
-      <div class="card p-6"><h3 class="text-xl font-semibold text-white mb-2">Lançamentos & Locais</h3><p class="text-slate-300">Estratégias para vender mais.</p></div>
-    </div>
+  <!-- Serviços -->
+  <section class="section" style="background:#08121e;">
+    <h2>Serviços</h2>
+    <p>Páginas de vendas, anúncios, e-mails e estratégias de copywriting que realmente convertem.</p>
   </section>
 
-  <section id="portfolio" class="border-y border-white/10" style="background:rgba(255,255,255,.05)">
-    <div class="max-w-7xl mx-auto px-4 py-20 text-center">
-      <h2 class="text-4xl font-bold text-white/95">Resultados que falam por si</h2>
-      <div class="mt-10 grid gap-6 md:grid-cols-3">
-        <div class="card p-6"><h3 class="text-lg font-semibold text-white">E-commerce de Moda</h3><p class="mt-2 text-2xl font-bold text-white">+62% em receita</p></div>
-        <div class="card p-6"><h3 class="text-lg font-semibold text-white">Clínica Odontológica</h3><p class="mt-2 text-2xl font-bold text-white">3x mais leads</p></div>
-        <div class="card p-6"><h3 class="text-lg font-semibold text-white">Infoproduto Fitness</h3><p class="mt-2 text-2xl font-bold text-white">+41% conversão</p></div>
-      </div>
-    </div>
+  <!-- Portfólio -->
+  <section class="section">
+    <h2>Portfólio</h2>
+    <p>Já ajudamos empreendedores digitais, infoprodutores e negócios locais a aumentarem suas vendas.</p>
   </section>
 
-  <section id="planos" class="max-w-7xl mx-auto px-4 py-20 text-center">
-    <h2 class="text-4xl font-bold text-white/95">Planos</h2>
-    <div class="mt-10 grid gap-6 md:grid-cols-3">
-      <div class="card p-6"><h3 class="text-xl font-semibold text-white">Essencial</h3><p class="mt-3 text-3xl font-extrabold text-white">Kz 95.000</p></div>
-      <div class="p-6 rounded-2xl shadow-xl" style="background:#fff;color:#0b1a2a;"><h3 class="text-xl font-semibold">Crescimento</h3><p class="mt-3 text-3xl font-extrabold">Kz 195.000</p></div>
-      <div class="card p-6"><h3 class="text-xl font-semibold text-white">Escala</h3><p class="mt-3 text-3xl font-extrabold text-white">Kz 395.000</p></div>
-    </div>
+  <!-- Planos -->
+  <section class="section" style="background:#08121e;">
+    <h2>Planos</h2>
+    <p>Planos personalizados para o seu negócio, desde lançamentos até estratégias contínuas de marketing.</p>
   </section>
 
-  <section id="processo" class="border-y border-white/10" style="background:rgba(255,255,255,.05)">
-    <div class="max-w-7xl mx-auto px-4 py-20 text-center">
-      <h2 class="text-4xl font-bold text-white/95">Nosso processo</h2>
-      <div class="mt-10 grid gap-6 md:grid-cols-3">
-        <div class="card p-6"><h3 class="text-lg font-semibold text-white">1. Diagnóstico</h3><p class="text-slate-300">Analisamos seu negócio</p></div>
-        <div class="card p-6"><h3 class="text-lg font-semibold text-white">2. Estratégia</h3><p class="text-slate-300">Criamos a copy ideal</p></div>
-        <div class="card p-6"><h3 class="text-lg font-semibold text-white">3. Otimização</h3><p class="text-slate-300">Testes e melhorias</p></div>
-      </div>
-    </div>
+  <!-- Processo -->
+  <section class="section">
+    <h2>Nosso Processo</h2>
+    <p>Entendemos seu público, criamos mensagens que conectam e entregamos copy estratégica para gerar resultados.</p>
   </section>
 
-  <section id="contato" class="max-w-7xl mx-auto px-4 py-20 text-center">
-    <h2 class="text-4xl font-bold text-white/95">Pronto para vender mais?</h2>
-    <p class="mt-4 text-lg text-slate-300">Fale conosco agora!</p>
-    <a href="mailto:copyvision03@gmail.com" class="btn btn-primary mt-6">Enviar e-mail</a>
+  <!-- Contato -->
+  <section class="section" id="contato" style="background:#08121e;">
+    <h2>Contato</h2>
+    <p>Email: <a href="mailto:copyvision03@gmail.com" style="color:#fff;">copyvision03@gmail.com</a></p>
+    <p>WhatsApp: <a href="tel:+244941600472" style="color:#fff;">+244 941 600 472</a></p>
   </section>
 
-  <footer class="border-t border-white/10 text-center py-6" style="background:#08121e">
-    <p class="text-slate-400 text-sm">© 2025 CopyVision. Todos os direitos reservados.</p>
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 CopyVision – Transformando palavras em vendas.</p>
   </footer>
+
 </body>
 </html>
